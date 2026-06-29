@@ -1,11 +1,12 @@
 {
-  "name": "01-express",
+  "name": "nodejs-hw",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
+   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,7 +16,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+
   "bugs": {
     "url": "https://github.com/IlliaKumpan/nodejs-hw/issues"
   },
